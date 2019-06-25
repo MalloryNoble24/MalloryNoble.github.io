@@ -7,7 +7,7 @@
                 background:rgb(161, 197, 252);
                 color:rgb(45,45,45) ;
                 padding: 10px;
-                font-family:Bradley Hand ITC; 
+                font-family: Lucida Handwriting; 
             }
             header {
                 font-size: 1.5em;
@@ -62,20 +62,29 @@
             .interests header {
                 font-size: 1.25em;
             }
-        </style>
-    </head>
+            </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script>
+                    $(document).ready(function(){
+                      $("button").click(function(){
+                          $("ul.professional-interests").toggle();
+                      });  
+                    });
+                </script>
+            </head>
+            
     
     <body>
        <div id="all contents">
            <nav>
                <header>Mallory's One of a Kind Website</header>
-               <ul>
-                   <li><a href="index.html">Home</a></li>
-                   <li><a herf="portfolio.html">Portfolio</a></li>
-               </ul>
+               <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
            </nav>
-           
-           <main>
                <div class="sidebar">
                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=fb6fee609b&attid=0.1&permmsgid=msg-f:1635455313358648625&th=16b24df146c47531&view=att&disp=safe" width="225" height="253">
                </div>
@@ -86,13 +95,27 @@
                    <section class="interests">
                        <header>Interests</header>
                        <ul>
-                           <li>Art</li>
-                           <li>Food</li>
-                           <li>Sports</li>
+                           <li>I enjoy making art</li>
+                           <li>Eating food is very enjoyable</li>
+                           <li>Sports are a part of my life</li>
                        </ul>
                    </section>
                </div>
+              </div>
            </main>
+            <main>
+               <div class="content">
+                   <header> Professinal Interests</header>
+                   <section class="intrests">
+                       <button>Use me to see my professional-interests</button>
+                       <ul class="professional-intrests"> 
+                           <li> Javascript Web Developement</li>
+                           <li>Data Science</li>
+                           <li>Analzing Data Using Python</li>
+                          </ul>
+                        </section>
+                    </div>
+                </main>
        </div>
     </body>
 </html>

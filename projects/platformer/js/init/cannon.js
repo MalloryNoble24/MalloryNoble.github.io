@@ -20,9 +20,9 @@
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
         // example: 
-        cannon.create.onTop(450);
-        cannon.create.onBottom(600);
-        cannon.create.onBottom(200);
+        cannon.create.onTop(475);
+        cannon.create.onBottom(850);
+        cannon.create.onBottom(225);
         
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
